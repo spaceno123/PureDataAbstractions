@@ -1,0 +1,7 @@
+#N canvas 156 156 586 182 12;
+#X obj 14 54 cnv 1 550 1 empty empty empty 8 12 0 13 #000000 #000000 0;
+#X obj 14 142 cnv 1 550 1 empty empty empty 8 12 0 13 #000000 #000000 0;
+#X obj 29 19 delay~;
+#X text 97 18 - delay per sample.;
+#X text 27 69 The delay~ object outputs delay in samples., f 69;
+#X text 27 96 Can not feedback without send-return., f 69;

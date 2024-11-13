@@ -1,0 +1,8 @@
+#N canvas 174 304 597 176 12;
+#X obj 14 54 cnv 1 550 1 empty empty empty 8 12 0 13 #000000 #000000 0;
+#X obj 14 142 cnv 1 550 1 empty empty empty 8 12 0 13 #000000 #000000 0;
+#X text 130 19 - fft analize.;
+#X text 27 69 The fftanalize~ object analize at fft., f 69;
+#X obj 25 18 cnv 19 102 21 empty empty empty 20 12 0 12 #000000 #404040 0;
+#X obj 26 19 cnv 19 100 19 empty empty fftanalize~ 0 12 0 12 #ffffff #000000 0;
+#X coords 0 0 1 1 85 60 0;

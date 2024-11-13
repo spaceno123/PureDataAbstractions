@@ -1,0 +1,15 @@
+#N canvas 805 344 449 296 12;
+#X obj 30 17 inlet;
+#X obj 30 69 outlet~;
+#X msg 212 69 \; \$1-impuls 0 1 0 \;;
+#X obj 212 43 i \$0;
+#X obj 212 18 loadbang;
+#X obj 30 42 tabplay~ \$0-impuls;
+#N canvas 0 50 450 250 (subpatch) 0;
+#X array \$0-impuls 2 float 2;
+#X coords 0 1 2 -1 200 140 1;
+#X restore 212 131 graph;
+#X connect 0 0 5 0;
+#X connect 3 0 2 0;
+#X connect 4 0 3 0;
+#X connect 5 0 1 0;

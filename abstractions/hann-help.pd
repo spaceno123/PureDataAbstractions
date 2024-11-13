@@ -1,0 +1,6 @@
+#N canvas 174 304 597 176 12;
+#X obj 14 54 cnv 1 550 1 empty empty empty 8 12 0 13 #000000 #000000 0;
+#X obj 14 142 cnv 1 550 1 empty empty empty 8 12 0 13 #000000 #000000 0;
+#X text 130 19 - make hann window table.;
+#X text 27 69 The hann object make hann window table., f 69;
+#X obj 29 19 hann;

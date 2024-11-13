@@ -1,0 +1,6 @@
+#N canvas 174 304 597 176 12;
+#X obj 29 19 impuls~;
+#X text 97 18 - impuls generator;
+#X obj 14 54 cnv 1 550 1 empty empty empty 8 12 0 13 #000000 #000000 0;
+#X text 27 69 The impuls~ object outputs impuls at bang imput., f 69;
+#X obj 14 142 cnv 1 550 1 empty empty empty 8 12 0 13 #000000 #000000 0;

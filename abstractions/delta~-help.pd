@@ -1,0 +1,6 @@
+#N canvas 130 130 610 300 12;
+#X obj 14 54 cnv 1 550 1 empty empty empty 8 12 0 13 #000000 #000000 0;
+#X obj 14 142 cnv 1 550 1 empty empty empty 8 12 0 13 #000000 #000000 0;
+#X obj 29 19 delta~;
+#X text 97 18 - Difference between before and after samples.;
+#X text 27 69 The delta~ object outputs difference between before and after samples., f 73;

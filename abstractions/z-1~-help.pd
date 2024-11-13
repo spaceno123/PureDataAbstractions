@@ -1,0 +1,7 @@
+#N canvas 222 244 623 196 12;
+#X obj 14 54 cnv 1 550 1 empty empty empty 8 12 0 13 #000000 #000000 0;
+#X obj 14 142 cnv 1 550 1 empty empty empty 8 12 0 13 #000000 #000000 0;
+#X obj 29 19 z-1~;
+#X text 97 18 - one sample delay;
+#X text 27 69 The z-1~ object outputs one sample delay of the input., f 69;
+#X text 26 101 Caution feedback occurs one block delay., f 69;
