@@ -11,8 +11,8 @@
 #X obj 82 342 -;
 #X obj 68 145 t f f;
 #N canvas 52 52 530 354 (subpatch) 0;
-#X array \$1-hann 4096 float 2;
-#X coords 0 1 4096 0 200 140 1 0 0;
+#X array \$1-hann 8192 float 2;
+#X coords 0 1 8192 0 200 140 1 0 0;
 #X restore 227 211 graph;
 #X msg 228 149 \; \$1-hann resize \$2;
 #X obj 82 373 tabwrite \$1-hann;
@@ -22,8 +22,7 @@
 #X obj 68 37 t b b b b;
 #X obj 228 121 pack;
 #X obj 68 170 / \$2;
-#X obj 172 122 2pi;
-#X obj 172 153 * 2;
+#X obj 170 144 2pi;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 1 0 10 0;
@@ -47,5 +46,4 @@
 #X connect 17 3 16 0;
 #X connect 18 0 12 0;
 #X connect 19 0 4 0;
-#X connect 20 0 21 0;
-#X connect 21 0 4 1;
+#X connect 20 0 4 1;
