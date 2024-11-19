@@ -4,14 +4,14 @@
 #X obj 49 165 outlet~;
 #X obj 50 103 delwrite~ \$0-delay \$1;
 #X connect 0 0 2 0;
-#X restore 30 109 pd delay-write;
+#X restore 29 150 pd delay-write;
 #X obj 29 24 inlet~;
-#X floatatom 262 61 5 0 480 0 - - - 0;
-#X obj 262 92 * 1000;
-#X obj 262 125 /;
-#X obj 315 93 samplerate~;
+#X floatatom 262 91 5 0 480 0 - - - 0;
+#X obj 262 119 * 1000;
+#X obj 262 149 /;
+#X obj 315 120 samplerate~;
 #X floatatom 262 205 5 0 0 0 - - - 0;
-#X floatatom 315 125 5 0 0 0 - - - 0;
+#X floatatom 315 149 5 0 0 0 - - - 0;
 #X obj 315 27 loadbang;
 #N canvas 168 520 450 300 delay-read4 0;
 #X obj 96 16 inlet;
@@ -23,9 +23,9 @@
 #X restore 29 238 pd delay-read4;
 #X obj 388 27 receive pd-dsp-started;
 #X obj 262 27 inlet;
-#X obj 262 164 clip 0 \$1;
+#X obj 262 178 clip 0 \$1;
 #X obj 29 267 outlet~;
-#X obj 68 52 route delaytime;
+#X obj 68 52 route time sample;
 #X connect 0 0 9 0;
 #X connect 1 0 0 0;
 #X connect 1 1 14 0;
@@ -41,3 +41,4 @@
 #X connect 11 0 2 0;
 #X connect 12 0 6 0;
 #X connect 14 0 12 0;
+#X connect 14 1 2 0;
