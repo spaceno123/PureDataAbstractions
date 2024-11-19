@@ -4,7 +4,7 @@
 #X obj 49 165 outlet~;
 #X obj 50 103 delwrite~ \$0-delay \$1;
 #X connect 0 0 2 0;
-#X restore 28 60 pd delay-write;
+#X restore 30 109 pd delay-write;
 #X obj 29 24 inlet~;
 #X floatatom 262 61 5 0 480 0 - - - 0;
 #X obj 262 92 * 1000;
@@ -25,9 +25,9 @@
 #X obj 262 27 inlet;
 #X obj 262 164 clip 0 \$1;
 #X obj 29 267 outlet~;
-#X obj 153 26 inlet;
 #X connect 0 0 9 0;
 #X connect 1 0 0 0;
+#X connect 1 1 12 0;
 #X connect 2 0 3 0;
 #X connect 3 0 4 0;
 #X connect 4 0 12 0;
@@ -39,4 +39,3 @@
 #X connect 10 0 5 0;
 #X connect 11 0 2 0;
 #X connect 12 0 6 0;
-#X connect 14 0 12 0;
