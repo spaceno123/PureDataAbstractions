@@ -3,8 +3,8 @@
 #X obj 53 25 inlet~;
 #X obj 52 120 tabwrite~ \$0-in;
 #N canvas 0 50 450 250 (subpatch) 0;
-#X array \$0-in 8192 float 2;
-#X coords 0 1 8192 -1 200 140 1;
+#X array \$0-in 128 float 2;
+#X coords 0 250 128 249 200 140 0;
 #X restore 422 18 graph;
 #X msg 288 117 \; \$1-in resize \$2;
 #X obj 288 93 pack;
@@ -18,8 +18,8 @@
 #N canvas 54 123 967 726 fft 0;
 #X obj 36 19 inlet~;
 #N canvas 52 52 450 250 (subpatch) 0;
-#X array \$0-fft 4097 float 2;
-#X coords 0 0 4097 -100 200 140 1 0 0;
+#X array \$0-fft 65 float 2;
+#X coords 0 250 1 249 200 140 0;
 #X restore 259 229 graph;
 #X obj 36 253 tabwrite~ \$0-fft;
 #X obj 311 74 i \$1;
@@ -74,7 +74,7 @@
 #X obj 568 441 tabread4 \$0-fft;
 #X obj 590 153 t f f;
 #X obj 588 494 tabwrite \$0-fftrescale;
-#X obj 50 401 hsl 401 19 10 24000 1 0 \$0-s-freq \$0-r-freq empty -2 -10 0 12 #fcfcfc #000000 #000000 0 1;
+#X obj 50 401 hsl 401 19 10 22050 1 0 \$0-s-freq \$0-r-freq empty -2 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X floatatom 226 383 7 0 0 0 - \$0-s-freq \$0-s-number 0;
 #X msg 799 257 range 10 \$1;
 #X obj 799 298 s \$0-r-freq;
