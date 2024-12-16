@@ -1,4 +1,4 @@
-#N canvas 868 345 533 586 12;
+#N canvas 868 345 533 591 12;
 #X obj 24 84 inlet;
 #X obj 124 85 inlet;
 #X floatatom 24 186 5 0 0 0 - - - 0;
