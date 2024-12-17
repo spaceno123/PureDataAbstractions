@@ -1,12 +1,12 @@
-#N canvas 801 159 472 798 12;
+#N canvas 801 98 472 606 12;
 #X text 41 14 The following as a list of PureDataAbstructions.;
 #X text 23 98 ------------------------- MATH -----------------;
 #X obj 28 121 pi;
 #X obj 59 121 2pi;
 #X text 136 121 - constant;
-#X text 22 715 -------------------- AUDIO DELAY ------------------------;
-#X obj 27 742 delay~;
-#X text 140 742 - delay of sample;
+#X text 23 788 -------------------- AUDIO DELAY ------------------------;
+#X obj 28 811 delay~;
+#X text 141 811 - delay of sample;
 #X text 22 516 -------------------- AUDIO FILTERS ------------------------;
 #X obj 28 542 delta~;
 #X text 141 542 - difference between sample;
@@ -14,8 +14,8 @@
 #X text 24 439 [fftanalize~];
 #X text 24 149 [hann];
 #X text 136 147 - make hann table;
-#X obj 27 769 z-1~;
-#X text 141 768 - one sample delay;
+#X obj 28 838 z-1~;
+#X text 142 837 - one sample delay;
 #X text 142 439 - fft analize;
 #X text 23 464 ------------ AUDIO GENERATORS AND TABLES -------------;
 #X obj 28 489 impuls~;
@@ -55,3 +55,9 @@
 #X text 140 641 - 2nd order band pass filter.;
 #X text 140 665 - 2nd order high pass filter.;
 #X text 140 690 - 2nd order low pass filter.;
+#X obj 28 716 hshelf~;
+#X text 140 715 - 2nd order high shelf filter.;
+#X obj 28 741 lshelf~;
+#X text 140 740 - 2nd order low shelf filter.;
+#X obj 28 767 peaking~;
+#X text 140 765 - 2nd order peaking filter.;
