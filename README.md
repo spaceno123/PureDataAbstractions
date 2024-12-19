@@ -24,8 +24,12 @@ PureData my Abstruction's.
   - iir2lpfcoef.pd
   - iir2lshelfcoef.pd
   - iir2peakingcoef.pd
+  - svfcoef.pd
+- audio math
+  - svfcoef~.pd
 - general audio tools
   - fftanalize~.pd
+  - fftanalizes~.pd
 - audio generators and tables
   - impuls~.pd
 - audio filters
@@ -39,6 +43,10 @@ PureData my Abstruction's.
   - hshelf~.pd
   - lshelf~.pd
   - peaking~.pd
+  - svfc~.pd
+  - svfcc~.pd
+  - svfs~.pd
+  - svfsc~.pd
 - delay
   - delay~.pd
   - z-1~.pd
